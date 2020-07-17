@@ -1,0 +1,32 @@
+# This is a comment
+[global_config]
+focus = system
+borderless = True
+hide_tabbar = True
+;disable_real_transparency = True
+;window_state = 'fullscreen' # on default, open on fullscreen
+
+# titlebar colors
+title_transmit_bg_color = "#000000"
+title_transmit_fg_color = "#000000"
+title_inactive_bg_color = "#000000"
+title_inactive_fg_color = "#000000"
+
+
+[keybindings]
+full_screen = <Ctrl><Shift>F11
+
+[profiles]
+[[default]]
+use_system_font = False
+font = "DejaVuSansMono NF 14"
+cursor_shape = "underline"
+scrollbar_position = "disabled"
+show_titlebar = False
+background_color = "#17212c" # A comment
+background_darkness = 0.90 # how transparent the background is 
+background_type = "transparent"
+foreground_color = "#dfe3ee" # Note that hex colour values must be quoted
+scrollback_lines = '500' #More comment. Single quotes are valid too
+cursor_blink = True
+custom_command = "echo \"foo#bar\"" #Final comment - this will work as expected
